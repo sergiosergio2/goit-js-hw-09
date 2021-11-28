@@ -14,10 +14,10 @@ function getRandomHexColor() {
   function start() {
       bodyColor();
       timerId = setInterval(bodyColor, 1000);
-      isabled(ref.startBtn, ref.stopBtn);
+      disabled(ref.startBtn, ref.stopBtn);
   }
   function stop() {
-      isabled(ref.stopBtn, ref.startBtn );
+      disabled(ref.stopBtn, ref.startBtn );
       clearInterval(timerId);
   }
 
