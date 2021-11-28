@@ -26,7 +26,7 @@ function getRandomHexColor() {
 
 
   }
-  function isabled (activ, pass) {
-      activ.setAttribute('disabled','');
+  function disabled (activ, pass) {
+      activ.setAttribute('disabled', '');
       pass.removeAttribute('disabled');
   }
