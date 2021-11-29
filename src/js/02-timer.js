@@ -11,7 +11,7 @@ const refs = {
 
 }
 let selectedTime = null;
-let timerId;
+let timerId = null;
 refs.btnStart.addEventListener ('click', startTimer);
 const options = {
     enableTime: true,
