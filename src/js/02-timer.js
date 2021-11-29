@@ -96,7 +96,7 @@ element.removeAttribute('disabled');
         if(timeResult<0){
             setDisabled(refs.btnStart);
             clearTime();
-            Notify.success('Bo-o-om');   
+            Notify.success('ALARM');   
              return;
          } 
        const time =convertMs(timeResult);
